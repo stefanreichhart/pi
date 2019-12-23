@@ -1,0 +1,23 @@
+# noip2
+# ----------------------------------------------------------------------------
+# sudo nano /etc/systemd/system/noip2.service
+# sudo chmod 644 /etc/systemd/system/noip2.service
+# ( paste contetn of this file )
+# sudo systemctl daemon-reload
+# sudo systemctl enable noip2.service
+# sudo sudo systemctl start noip2.service
+# sudo reboot
+# ----------------------------------------------------------------------------
+
+[Unit]
+Description=NoIp2
+After=network.target
+After=syslog.target
+
+[Service]
+ExecStart=/usr/local/bin/noip2
+ExecRestart=always
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
