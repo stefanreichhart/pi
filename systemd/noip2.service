@@ -1,13 +1,24 @@
-# noip2
-# ----------------------------------------------------------------------------
+# noip2 configuration
+#
+# cd /usr/local/src
+# wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+# tar xzf noip-duc-linux.tar.gz
+# cd noip-2.1.9-1
+# make
+# make install
+#
+# sudo /usr/local/bin/noip2 -C
+# ( config wizard )
+#
 # sudo nano /etc/systemd/system/noip2.service
 # sudo chmod 644 /etc/systemd/system/noip2.service
 # ( paste contetn of this file )
+#
 # sudo systemctl daemon-reload
 # sudo systemctl enable noip2.service
 # sudo sudo systemctl start noip2.service
+#
 # sudo reboot
-# ----------------------------------------------------------------------------
 
 [Unit]
 Description=NoIp2
