@@ -1,1 +1,1 @@
-# pi-hole
+# pi configuration
