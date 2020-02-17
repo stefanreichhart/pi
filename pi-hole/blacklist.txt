@@ -1,18 +1,11 @@
-# custom blacklist for pi-hole
-
-# samsung tv
-gld.push.samsungosp.com
 cdn.samsungcloudsolution.com
 lcprd1.samsungcloudsolution.net
-ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
-img-resize-cdn-prod.samsungnyc.com
-
-# samsung account
-auth.samsungosp.com
-
-# facebook
-scontent.flux1-1.fna.fbcdn.net
-
-# various
 video-ads.rubiconproject.com
-crl.tivuon.tv
+osb-apps.samsungqbe.com
+nmxde-ssl.wemfbox.ch
+netmx-ssl.wemfbox.ch
+nmx-ssl.wemfbox.ch
+infoweek-ssl.wemfbox.ch
+vd.contents.prod.eu.s3.amazonaws.com
+su.ff.avast.com
+su.ns1.ff.avast.com
