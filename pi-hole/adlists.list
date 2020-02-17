@@ -5,3 +5,4 @@ https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://hosts-file.net/ad_servers.txt
 https://github.com/Perflyst/PiHoleBlocklist/blob/master/SmartTV.txt
+https://github.com/stefanreichhart/pi/blob/master/pi-hole/blacklist.txt

@@ -12,7 +12,6 @@ auth.samsungosp.com
 
 # facebook
 scontent.flux1-1.fna.fbcdn.net
-www.facebook.com
 
 # various
 video-ads.rubiconproject.com
